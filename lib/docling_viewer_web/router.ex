@@ -17,7 +17,7 @@ defmodule DoclingViewerWeb.Router do
   scope "/", DoclingViewerWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", HomeLive
   end
 
   # Other scopes may use custom stacks.
