@@ -1,5 +1,12 @@
 Here's a concise, concrete plan for a web app presentation of a DoclingDocument for any sized PDF:
 
+# Main considerations
+
+- This is a pure LiveView app, no npm dependencies or package.json should be added.
+- This is a single page viewer that takes the input from `priv/static/example.json`
+
+# Steps
+
 1. **Three-Pane Layout:**
 
    - **Sidebar (Navigation Tree):**
