@@ -57,7 +57,9 @@ defmodule DoclingViewer.MixProject do
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:mock, "~> 0.3.0", only: :test},
+      {:credo, "~> 1.7"}
     ]
   end
 
@@ -79,7 +81,12 @@ defmodule DoclingViewer.MixProject do
         "tailwind docling_viewer --minify",
         "esbuild docling_viewer --minify",
         "phx.digest"
-      ]
+      ],
+      check: ["compile --warnings-as-errors", "credo --strict", "test"]
     ]
+  end
+
+  def cli do
+    [preferred_envs: [check: :test]]
   end
 end

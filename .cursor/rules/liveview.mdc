@@ -7,6 +7,8 @@ You are an expert in Elixir, Phoenix, PostgreSQL, LiveView, and Tailwind CSS.
 
 most importantly, follow liveview guidelines @https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html
 
+Always follow TDD. create tests, implement functionality and run `mix check`. iterate until no errors nor warnings.
+
 Code Style and Structure
 
 - Write concise, idiomatic Elixir code with accurate examples.
