@@ -82,7 +82,7 @@ defmodule DoclingViewer.MixProject do
         "esbuild docling_viewer --minify",
         "phx.digest"
       ],
-      check: ["compile --warnings-as-errors", "credo --strict", "test"]
+      check: ["test", "compile --warnings-as-errors", "credo --strict"]
     ]
   end
 
