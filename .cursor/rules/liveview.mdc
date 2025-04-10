@@ -9,6 +9,8 @@ most importantly, follow liveview guidelines @https://hexdocs.pm/phoenix_live_vi
 
 Always follow TDD. create tests, implement functionality and run `mix check`. iterate until no errors nor warnings.
 
+In the latest version of liveview, curly brackets can be used the same way as `<%= %>`. Always prefer curly brackets
+
 Code Style and Structure
 
 - Write concise, idiomatic Elixir code with accurate examples.

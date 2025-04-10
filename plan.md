@@ -34,9 +34,4 @@ Here's a concise, concrete plan for a web app presentation of a DoclingDocument 
    - **Responsive Design:** Ensure that both the tree and content panels adapt to different screen sizes and can handle PDFs of any length or complexity.
    - **Animated Transitions:** Use smooth animations when expanding/collapsing nodes or switching between pages and metadata views to maintain a fluid user experience.
 
-5. **Technology Stack Recommendations:**
-   - Use **React.js** for building dynamic UI components and state management.
-   - Leverage **D3.js** or a React tree component library for rendering and animating the hierarchical tree.
-   - Integrate libraries like **Material-UI** for standard components (panels, tabs, buttons) to speed up design and ensure responsiveness.
-
 This organization provides an intuitive, multi-layered approach: a clear overview of the document structure in the sidebar, detailed content and layout in the center, and deep metadata accessible on demand—all seamlessly scalable for large PDFs.
